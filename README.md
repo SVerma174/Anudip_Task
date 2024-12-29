@@ -111,7 +111,7 @@ We welcome contributions to improve this repository! Fork this repository, make 
   <h2 style="color: #4CAF50;">Contact</h2>
   <p style="font-size: 16px; color: #555;">For any queries or discussions, feel free to reach out:</p>
   <a href="mailto:your.email@example.com" style="font-size: 16px; color: #4CAF50;">skshubhamverma12@gmail.com</a><br>
-  <a href="https://linkedin.com/in/yourprofile" style="font-size: 16px; color: #4CAF50;">  <a href="https://linkedin.com/in/yourprofile" style="font-size: 16px; color: #4CAF50;">Your LinkedIn Profile</a>e</a>
+  <a href="https://linkedin.com/in/yourprofile" style="font-size: 16px; color: #4CAF50;">  <a href="https://linkedin.com/in/yourprofile" style="font-size: 16px; color: #4CAF50;">(https://www.linkedin.com/in/shubham-verma-158016219)</a></a>
 </div>
 
 ---
