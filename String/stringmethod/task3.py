@@ -1,23 +1,14 @@
-#  Write a Python program to count Uppercase, Lowercase, special character and numeric values in a given string
-import random
+# Input string with mixed characters
+s = "Hell0 W0rld ! 123 * # welcome to pYtHoN"
 
-magic_number = random.randint(0, 20)
+# Count and print the number of uppercase letters
+print("UpperCase:", sum(1 for c in s if c.isupper()))  # Check if each character is uppercase
 
-print("Welcome to the Magic Number Guessing Game!")
-print("I have chosen a number between 0 and 20. Can you guess what it is?")
+# Count and print the number of lowercase letters
+print("LowerCase:", sum(1 for c in s if c.islower()))  # Check if each character is lowercase
 
-while True:
-  
-    try:
-        guess = int(input("Enter your guess: "))
-        
-      
-        if guess == magic_number:
-            print("Congratulations! You guessed the magic number.")
-            break
-        elif guess < magic_number:
-            print("Too low! Try again.")
-        else:
-            print("Too high! Try again.")
-    except ValueError:
-        print("Invalid input! Please enter a whole number.")
+# Count and print the number of numeric characters
+print("NumberCase:", sum(1 for c in s if c.isdigit()))  # Check if each character is a digit
+
+# Count and print the number of special characters
+print("SpecialCase:", sum(1 for c in s if not c.isalnum() and not c.isspace()))  # Check if character is neither alphanumeric nor a space
